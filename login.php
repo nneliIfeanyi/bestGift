@@ -149,7 +149,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" ) {
 
 
 			<div class="w3-medium w3-text-light-grey">
-				Not yet registered, proceed to <a href="Signup.php" style="text-decoration: none;font-weight: bold;"><span class="w3-text-teal">Sign Up</span></a></div>
+				Not yet registered, proceed to <a href="signup.php" style="text-decoration: none;font-weight: bold;"><span class="w3-text-teal">Sign Up</span></a></div>
 			</div>
 		</div>
 		

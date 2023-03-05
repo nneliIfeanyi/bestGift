@@ -26,7 +26,7 @@
         <li class="w3-padding-16 w3-teal w3-wide w3-opacity">MENU</li>
         <li class="w3-hover-teal"><a href="index.php">Dashboard</a></li>
         <li class="w3-hover-teal"><a href="products.php">View Showroom</a></li>
-        <li class="w3-hover-teal"><a href="Customers.php">View Customers</a></li>
+        <li class="w3-hover-teal"><a href="customers.php">View Customers</a></li>
         <li class="w3-hover-teal"><a href="orders.php">View Orders</a></li>
         <li class="w3-hover-teal"><a href="payments.php">View Payments</a></li>
         <li class="w3-hover-teal"><a href="homepage.php">Homepage</a></li>

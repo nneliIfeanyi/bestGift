@@ -131,7 +131,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" ) {
 
     ?>
 
-    <div class="w3-padding-32 w3-margin-top body2" style="width:80%;margin: auto;">
+    <div class="w3-padding-32 w3-margin-top body2" style="width:95%;margin: auto;">
     
         <div class="w3-row-padding">
 
@@ -139,7 +139,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" ) {
                 <div class="w3-center">
                     <h1 class="w3-text-light-grey w3-wide w3-medium"><b>Welcome !</b></h1> 
                     <h3 class="w3-text-green w3-serif"><?=$name?></h3>
-                    <h3 class="w3-padding-small w3-cursive w3-large w3-padding-16  W3-border" style="text-transform: ;color: antiquewhite;font-weight: bold;">THIS IS YOUR PERSONAL BUSINESS WEBSITE<br>
+                    <h3 class="w3-padding-small w3-large w3-padding-16  W3-border" style="text-transform: ;color: antiquewhite;font-weight: bold;">THIS IS YOUR PERSONAL BUSINESS WEBSITE<br>
                         <span class="w3-text-orange w3-cursive w3-medium">Click <a href="homepage.php">here</a> to view as a customer.</span></h3>
                     <h4 class="w3-text-light-grey"><i>
                      Use the form below to add Products to display to customers..
@@ -206,7 +206,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" ) {
 
                   <label class="w3-text-orange w3-opacity-min"><b>Add Product Picture</b></label>
                  <div class="w3-card w3-padding-small">
-                    <input type="file" name="image" style="background-color: white;">
+                    <input type="file" name="image" style="background-color: white;width: 60%;">
                  </div>
                  <span class="w3-small w3-tag w3-red"><?= $imgErr ?></span>
                 
