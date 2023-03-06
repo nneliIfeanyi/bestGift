@@ -45,11 +45,23 @@ include 'functions.php';
 		margin-left: 4px;
 	}
 
+	.hov{
+
+		transition: 1.7s;
+	}
+
+	.hov:hover{
+
+		width: 98%;
+		height: 280px;
+		border-radius: unset;
+	}
+
 
 	</style>
 </head>
 
-<body class="w3-serif body" style="scroll-behavior:smooth;">
+<body class="w3-serif w3-white" style="scroll-behavior:smooth;">
 
 	<?php
 
@@ -151,10 +163,10 @@ include 'functions.php';
 
 				
 				?>
-				<div class="w3-row-padding w3-center w3-card-2 w3-border w3-margin" style="background-color:rgba(0, 0, 0, 0.95);color: antiquewhite;">
+				<div class="w3-row-padding w3-center w3-card-2 w3-border w3-margin w3-light-grey">
 
 				<div class="w3-half w3-padding-large w3-padding-16">
-					<img src="admin/<?=$img?>" class="w3-circle" height="200px" width="65%">
+					<img src="admin/<?=$img?>" class="w3-circle hov"  height="200px" width="85%%">
 				</div>
 
 				<div class="w3-half w3-padding-16">

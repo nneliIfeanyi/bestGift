@@ -98,7 +98,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" ) {
 	<?php
 		include 'header.php';
 	?>
-	<div class="w3-padding-32 login_div">
+	<div class="w3-padding-32 login_div w3-light-grey w3-card">
 	
 		<div class="w3-padding">
 
@@ -142,14 +142,14 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" ) {
 				</div>
 				
 				<div class="w3-margin-bottom">
-					<input type="submit" name="login" value="Sign In" class="w3-btn w3-teal w3-round-large">
+					<input type="submit" name="login" value="Sign In" class="w3-btn w3-green w3-round-large">
 				</div>
 
 			</form>
 
 
-			<div class="w3-medium w3-text-light-grey">
-				Not yet registered, proceed to <a href="signup.php" style="text-decoration: none;font-weight: bold;"><span class="w3-text-teal">Sign Up</span></a></div>
+			<div class="w3-medium w3-text-grey">
+				Not yet registered, proceed to <a href="signup.php" style="text-decoration: none;font-weight: bold;"><span class="w3-text-green">Sign Up</span></a></div>
 			</div>
 		</div>
 		

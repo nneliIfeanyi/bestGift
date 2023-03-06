@@ -25,7 +25,7 @@ $id = $user_data['id'];
 	<link rel="stylesheet" type="text/css" href="css/w3.css">
 </head>
 
-<body class="w3-serif body">
+<body class="w3-serif w3-light-grey">
 
 	<?php
 
@@ -35,11 +35,11 @@ $id = $user_data['id'];
 
 
 
-	<section class="w3-padding-small" style="background:rgba(0, 0, 0, 0.6);">
+	<section class="w3-padding-small">
 	    <div class="w3-row">
 	      <div class="w3-col m12 l12 s12">
 	    <div style="height: auto;overflow-y: scroll;" class="">
-	      <h2 class="w3-center my-font w3-text-white w3-large w3-padding-16"><span><img src="img/basket_cart.png" width="40px" height="30px" style="filter: invert(70%);"></span>&nbsp;My Shopping Cart</h2>
+	      <h2 class="w3-center my-font w3-text-grey w3-large w3-padding-16"><span><img src="img/basket_cart.png" width="40px" height="30px" style="filter: invert(70%);"></span>&nbsp;My Shopping Cart</h2>
 	      <div class="">
 	        <table class="w3-table-all">
 	          <thead>

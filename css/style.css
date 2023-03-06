@@ -1,7 +1,7 @@
 
 .body{
 	height: 100vh;
-	background-image: url(../img/bg11.jpg);
+	background-image: url(../img/logo2.jpg);
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -19,8 +19,7 @@
 .login_div{
 
 	margin: auto;
-	width: 80%;
-	background: rgba(0, 0, 0, 0.7);
+	width: 90%;
 	margin-top: 50px;
 	border-radius: 4%;
 

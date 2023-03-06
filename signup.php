@@ -121,11 +121,11 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" ) {
 	<?php
 		include 'header.php';
 	?>
-	<div class="w3-padding-32 login_div">
+	<div class="w3-padding-32 login_div w3-card w3-light-grey w3-margin-bottom">
 	
 		<div class="w3-padding">
 
-			<div class="w3-large w3-center w3-text-teal w3-round w3-tag">
+			<div class="w3-large w3-center w3-text-blue-grey">
 				<i class=""><b>
 				Use the form below to register and create a customer's profile.
 					</b></i>

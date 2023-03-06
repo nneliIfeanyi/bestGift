@@ -66,7 +66,7 @@ include 'functions.php';
 		}
 
 		.box h1{
-			color: antiquewhite;
+			color: grey;
 		}
 		.title-img{
 			display: flex;
@@ -78,21 +78,21 @@ include 'functions.php';
 
 </head>
 
-<body class="w3-serif body">
+<body class="w3-serif body w3-padding-16">
 
 	<?php
 
 		include 'header.php';
 
 	?>
-	<div class="box w3-card-4 w3-margin-top" style="background-color:rgba(0, 0, 0, 0.95);color: antiquewhite;">
+	<div class="box w3-card-4 w3-margin-top">
 
-		<p class="w3-large w3-text-orange w3-center"><i>Select the quantity you would like to add your shopping cart then proceed.</i></p>
+		<p class="w3-large w3-text-grey w3-center"><i>Select the <span class="w3-text-orange">quantity</span> you would like to add your shopping cart then proceed.</i></p>
 
 		<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" enctype="multipart/form-data"> 
 	          
 
-			<div class="w3-row-padding">
+			<div class="w3-row-padding w3-padding-16">
 
 				<div class="title-img w3-padding-16">
 					<input type="hidden" name="title" value="<?=$title?>">
@@ -109,7 +109,7 @@ include 'functions.php';
 				<div class="w3-third w3-center">
 						<h1 class="w3-xlarge">Available stock : </h1>
 
-						<span class="w3-text-orange"><?=$stock?></span>
+						<span class="w3-text-orange"><b><?=$stock?></b></span>
 
 					<!--<h1 class="w3-xlarge">Choose Size</h1>
 
@@ -121,7 +121,7 @@ include 'functions.php';
 
 				<div class="w3-third w3-center">
 
-					<h1 class="w3-xlarge w3-text-orange">Select quantity</h1>
+					<h1 class="w3-xlarge w3-text-grey">Add more</h1>
 
 					<input type="number" id="quantity" name="quantity" style="width: 16%; border: none;outline: none;" value="1" min="1" class="w3-large w3-round w3-grey">
 
@@ -131,13 +131,13 @@ include 'functions.php';
 
 					<h1 class="w3-xlarge">Price</h1>
 					<input type="hidden" name="price" value="<?=$price?>">
-					<label class="w3-large w3-text-light-grey">&#8358;<?=$price?>.00<span class="w3-tiny w3-text-orange">each</span></label><br>
+					<label class="w3-large w3-text-grey">&#8358;<?=$price?>.00<span class="w3-tiny w3-text-orange">each</span></label><br>
 
 				</div>
 
 				<div class="w3-col l12 m12 s12 w3-margin-top w3-center">
 					<input type="hidden" name="id" value="<?=$id?>">
-					<input type="submit" name="add_to_cart"  value="Proceed" class="w3-btn w3-text-dark-grey w3-teal 	w3-large w3-round-large">
+					<input type="submit" name="add_to_cart"  value="Proceed" class="w3-btn w3-text-dark-grey w3-green	w3-large w3-round-large">
 
 				</div>
 
