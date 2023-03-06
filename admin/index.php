@@ -73,12 +73,12 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" ) {
 
       if (!$query) {
 
-         $errMsg = "Something went wrong try again";
+         $msg = "Something went wrong try again";
 
       }else{
         
         move_uploaded_file($_FILES['image']['tmp_name'],$image_folder);
-        $msg = "<h2 class='w3-large w3-text-green w3-blue'>Product added successfully..</h2>";
+        $msg = "<h2 class='w3-large w3-text-green'>Product added successfully..</h2>";
         ?>
         <meta http-equiv="refresh" content="2; products.php">
 

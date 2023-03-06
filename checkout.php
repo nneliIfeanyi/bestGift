@@ -110,7 +110,7 @@ if ($_GET['amt'] && $_GET['id'] && $_GET['title'] || $_GET['describe'] && $_GET[
 
 				<div class="w3-col l12 m12 s12 w3-margin-top w3-padding-16 w3-center">
 
-					<a href="shipping.php?amount=<?=$total?>" class="w3-btn w3-text-light-grey w3-teal 	w3-large w3-round-large">Continue..</a>
+					<a href="shipping.php?" class="w3-btn w3-text-light-grey w3-teal 	w3-large w3-round-large">Continue..</a>
 
 				</div>
 

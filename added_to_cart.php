@@ -23,7 +23,7 @@ if ($_GET['amt'] && $_GET['id'] && $_GET['title'] || $_GET['describe'] && $_GET[
 	$customer_address = $user_data['address'];
 
 	
-	$sql = "INSERT INTO cart (name,email,phone,address,product_title,description,price,quantity,image,product_id,user_id) VALUES ('$customer_name','$customer_email','$customer_phone','$customer_address','$title','$description','$price','$amount','$img','$id','$customer_id')";
+	$sql = "INSERT INTO cart (name,phone,product_title,description,price,quantity,image,product_id,user_id) VALUES ('$customer_name','$customer_phone','$title','$description','$price','$amount','$img','$id','$customer_id')";
 	$query = mysqli_query($conn, $sql);
 
 	if ($query) {
