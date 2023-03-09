@@ -112,11 +112,11 @@ include '../functions.php';
 	
 
 <header class="navbar w3-black">
-	<h1>
-		<a href="homepage.php">
-			<b><i>Stanvic</i></b>
-		</a>
-	</h1>
+	<h1 style="font-weight: bolder;font-size: 32px;">
+			<a href="index.php">
+			<span class="w3-cursive">B</span><span class="w3-text-orange w3-cursive" style="margin-left:-7px;">G</span><span class="w3-cursive w3-medium">Souvenirs</span>
+			</a>
+		</h1>
 
 	<ul>
 		<li><a href="index.php">Dashboard</a></li>
@@ -181,59 +181,15 @@ include '../functions.php';
 
 	</div>
 
+
+		<?php
+
+		include '../showcase.php';
+
+	?>
+
+
 <div class="wrapper">
-	<!--=== SHOWCASE FOR LARGE/MEDIUM SCREENS ===-->
-
-	<section class="w3-padding-small" style="width:100%; height:40vh; background:#333; ">
-
-		<!--=== FIRST SLIDE ===-->
-
-		<div class="w3-row w3-padding-32 w3-animate-zoom w3-hide-large w3-hide-medium">
-			<div class="w3-col l6 m6 s8 w3-center w3-text-light-grey" style="margin-left: -24px;">
-				<p class="" style="font-weight: bold;">FREE DELIVERY<br/>Within Abuja <br>For oders within <span class="w3-text-red">50k</span><br>And above.</p>
-
-				<a href="" class="w3-btn w3-teal w3-round-large">Start Shopping Now</a>
-			</div>
-
-			<div class="content w3-col l6 m6 s4 w3-center">
-				<img src="img/avatar_biz_man.jpg" class="w3-image w3-circle" width="90%" height="180px">
-
-			</div>
-
-		</div>
-
-
-
-		<div class="contents w3-animate-zoom w3-hide small w3-center w3-margin">
-			
-			<div class="content w3-half">
-				<img src="img/basket_cart.png" class="w3-image w3-circle" width="65%">
-			</div>
-
-			<div class="content w3-half w3-text-light-grey">
-				<h1 class="w3-" style="font-weight: bold;">Free Delivery</h1>
-
-
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur.</p>
-
-
-			<a href="#content" class="w3-btn w3-teal w3-round-large w3-margin-top">Explore</a>
-
-			</div>
-
-
-		</div>
-
-
-
-	</section>
-
-
-
 
 
 		<!-- Commerce SECTION -->
@@ -261,20 +217,59 @@ include '../functions.php';
 
 				
 				?>
-				<div class="w3-row-padding w3-center w3-card-2 w3-margin">
+		<section class="examples w3-hide-medium w3-hide-large">
+			<div class="container">
+				<div class="sample">
+					<h1><?=$title?></h1>
+					<div class="content-2 w3-center">
+						<img src="<?=$img?>"/>
+						<p><?=$description?></p>
+					</div>
+
+					<h4>Price:	&nbsp;<span class="newPrice">&#8358;<?=$price?>.00</span> &nbsp;<!--<span class="oldPrice">&#8358;3,400,000.00</span>--></h4>
+
+					<div class="myBtn">
+						<button name="submit" class="buyNow"><a href="">Buy Now</a></button>
+						<button name="submit" class="addToCart"><a href="">Add to Cart</a></button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+			<!-- DISPLAYING IN LARGE SCREEN -->
+		<section class="examples w3-hide-small">
+			<div class="container w3-third">
+				<div class="sample">
+					<h1><?=$title?></h1>
+					<div class="content-2 w3-center">
+						<img src="<?=$img?>"/>
+						<p><?=$description?></p>
+					</div>
+
+					<h4>Price:	&nbsp;<span class="newPrice">&#8358;<?=$price?>.00</span> &nbsp;<!--<span class="oldPrice">&#8358;3,400,000.00</span>--></h4>
+
+					<div class="myBtn">
+						<button name="submit" class="buyNow"><a href="">Buy Now</a></button>
+						<button name="submit" class="addToCart"><a href="">Add to Cart</a></button>
+					</div>
+				</div>
+			</div>
+		</section>
+				<!--<div class="w3-row-padding w3-center w3-card-2 w3-margin">
 
 				<div class="w3-half w3-padding-large">
-					<img src="<?=$img?>" class="w3-image w3-circle" height="200px" width="80%">
+					<img src="" class="w3-image w3-circle" height="200px" width="80%">
 				</div>
 
 				<div class="w3-half w3-padding-16">
 					<ul class="w3-ul">
-						<li class="w3-xlarge"><?=$title?></li>
-						<li><?=$description?></li>
+						<li class="w3-xlarge"></li>
+						<li></li>
 
 
 						<li>
-							<span class="">&#8358;<?=$price?>.00</span>
+							<span class="">&#8358;.00</span>
 							<span></span>
 						</li>
 
@@ -292,7 +287,7 @@ include '../functions.php';
 					</ul>
 				</div>
 
-			</div>
+			</div>-->
 
 			<?php
 
@@ -405,6 +400,12 @@ include '../functions.php';
 				Commerce ENDS===
 					=========-->
 
+
+		<?php
+
+		include '../foot.php';
+
+	?>
 
 
 

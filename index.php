@@ -184,7 +184,7 @@ include 'functions.php';
 							<!--<a href="buy_now.php?product_id=<?=$id?>" class="w3-btn w3-text-light-grey w3-blue w3-large w3-round-large">Buy now</a>-->
 						
 
-							<a href="add_to_cart.php?product_id=<?=$id?>" class="w3-btn w3-text-light-grey w3-green w3-large w3-round-large">Add to cart</a>
+							<a href="add_to_cart.php?product_id=<?=$id?>" class="w3-btn w3-opacity w3-text-light-grey w3-green w3-large w3-round-large">Add to cart</a>
 
 						</li>
 

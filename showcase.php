@@ -28,7 +28,7 @@
 		<p class="w3-wide w3-margin-bottom w3-text-light-grey">We ship directly to your doorstep..</p>
 
 		<div class="w3-monospace" style="width: 100%;margin-top: 20px;">
-			<a href="about.php" class="w3-btn w3-text-light-grey w3-green w3-large w3-round-large ">Know Us
+			<a href="about.php" class="w3-btn w3-opacity w3-text-light-grey w3-green w3-large w3-round-large ">Know Us
 			</a>
 		</div>
 	</div>
